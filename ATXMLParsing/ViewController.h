@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Employee.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSXMLParserDelegate>
 {
     NSXMLParser *parser;
     NSMutableArray *employees;
     NSMutableString *dataString;
+    Employee *employeeModel;
 }
 
 @end
