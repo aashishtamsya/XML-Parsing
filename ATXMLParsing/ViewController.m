@@ -94,5 +94,10 @@
     
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return ([[UIScreen mainScreen]bounds].size.height - 20)/employees.count;
+}
+
 
 @end
