@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    NSXMLParser *parser;
+    NSMutableArray *employees;
+    NSMutableString *dataString;
+}
 
 @end
 

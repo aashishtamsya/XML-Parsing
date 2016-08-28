@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSURL *xmlURLPath = [[NSBundle mainBundle]URLForResource:@"Employee" withExtension:@"xml"];
+    parser = [[NSXMLParser alloc]initWithContentsOfURL:xmlURLPath];
+    
 }
 
 - (void)didReceiveMemoryWarning {

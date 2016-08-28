@@ -18,6 +18,8 @@
 		E1735A831D7161C200835579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1735A811D7161C200835579 /* Main.storyboard */; };
 		E1735A851D7161C200835579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1735A841D7161C200835579 /* Assets.xcassets */; };
 		E1735A881D7161C200835579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1735A861D7161C200835579 /* LaunchScreen.storyboard */; };
+		E1735AAE1D729E5300835579 /* Employee.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1735AAD1D729E5300835579 /* Employee.xml */; };
+		E1735AAF1D729E5300835579 /* Employee.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1735AAD1D729E5300835579 /* Employee.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		E1735A841D7161C200835579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1735A871D7161C200835579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1735A891D7161C200835579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1735AAD1D729E5300835579 /* Employee.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Employee.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		E1735A541D7161A900835579 = {
 			isa = PBXGroup;
 			children = (
+				E1735AAD1D729E5300835579 /* Employee.xml */,
 				E1735A5F1D7161A900835579 /* ATXMLParsing */,
 				E1735A7C1D7161C200835579 /* ATXMLParsing Swift */,
 				E1735A5E1D7161A900835579 /* Products */,
@@ -195,6 +199,7 @@
 				E1735A701D7161A900835579 /* LaunchScreen.storyboard in Resources */,
 				E1735A6D1D7161A900835579 /* Assets.xcassets in Resources */,
 				E1735A6B1D7161A900835579 /* Main.storyboard in Resources */,
+				E1735AAE1D729E5300835579 /* Employee.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +210,7 @@
 				E1735A881D7161C200835579 /* LaunchScreen.storyboard in Resources */,
 				E1735A851D7161C200835579 /* Assets.xcassets in Resources */,
 				E1735A831D7161C200835579 /* Main.storyboard in Resources */,
+				E1735AAF1D729E5300835579 /* Employee.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				E1735A761D7161A900835579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1735A8A1D7161C200835579 /* Build configuration list for PBXNativeTarget "ATXMLParsing Swift" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				E1735A8C1D7161C200835579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
