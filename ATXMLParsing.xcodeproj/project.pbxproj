@@ -22,6 +22,7 @@
 		E1735AAF1D729E5300835579 /* Employee.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1735AAD1D729E5300835579 /* Employee.xml */; };
 		E1735AB21D729EFD00835579 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E1735AB11D729EFD00835579 /* Employee.m */; };
 		E1735AB41D729F4D00835579 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1735AB31D729F4D00835579 /* Employee.swift */; };
+		E1735AB71D72A45400835579 /* EmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1735AB61D72A45400835579 /* EmployeeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		E1735AB01D729EFD00835579 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		E1735AB11D729EFD00835579 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		E1735AB31D729F4D00835579 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		E1735AB51D72A45400835579 /* EmployeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewCell.h; sourceTree = "<group>"; };
+		E1735AB61D72A45400835579 /* EmployeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				E1735A661D7161A900835579 /* ViewController.h */,
 				E1735A671D7161A900835579 /* ViewController.m */,
 				E1735A691D7161A900835579 /* Main.storyboard */,
+				E1735AB51D72A45400835579 /* EmployeeTableViewCell.h */,
+				E1735AB61D72A45400835579 /* EmployeeTableViewCell.m */,
 				E1735A6C1D7161A900835579 /* Assets.xcassets */,
 				E1735A6E1D7161A900835579 /* LaunchScreen.storyboard */,
 				E1735A711D7161A900835579 /* Info.plist */,
@@ -231,6 +236,7 @@
 			files = (
 				E1735A681D7161A900835579 /* ViewController.m in Sources */,
 				E1735AB21D729EFD00835579 /* Employee.m in Sources */,
+				E1735AB71D72A45400835579 /* EmployeeTableViewCell.m in Sources */,
 				E1735A651D7161A900835579 /* AppDelegate.m in Sources */,
 				E1735A621D7161A900835579 /* main.m in Sources */,
 			);

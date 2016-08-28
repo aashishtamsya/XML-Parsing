@@ -6,16 +6,20 @@
 //  Copyright © 2016 Aashish Tamsya. All rights reserved.
 //
 
+#define kEmployeeCellIdentifier @"employeeCell"
+
 #import <UIKit/UIKit.h>
 #import "Employee.h"
+#import "EmployeeTableViewCell.h"
 
-@interface ViewController : UIViewController<NSXMLParserDelegate>
+@interface ViewController : UIViewController<NSXMLParserDelegate,UITableViewDelegate,UITableViewDataSource>
 {
     NSXMLParser *parser;
     NSMutableArray *employees;
     NSMutableString *dataString;
     Employee *employeeModel;
 }
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 

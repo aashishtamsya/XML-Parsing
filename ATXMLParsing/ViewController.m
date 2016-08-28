@@ -56,7 +56,7 @@
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
     
     if ([elementName isEqualToString:@"root"]) {
-        //reload tableView
+        [self.tableView reloadData];
     }
     else if([elementName isEqualToString:@"Employee"]) {
         [employees addObject:employeeModel];
@@ -67,10 +67,32 @@
     else if([elementName isEqualToString:@"Designation"]) {
         employeeModel.designation = dataString;
     }
-    else if([elementName isEqualToString:@"Contact"]) {
+    else if([elementName isEqualToString:@"ContactNo"]) {
         employeeModel.contact = dataString;
     }
     
 }
+
+#pragma mark TableView Methods
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return employees.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    EmployeeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kEmployeeCellIdentifier forIndexPath:indexPath];
+    Employee *tempEmployeeModel = [employees objectAtIndex:indexPath.row];
+    cell.labelName.text = tempEmployeeModel.name;
+    cell.labelContact.text = tempEmployeeModel.contact;
+    cell.labelEmployeeId.text = tempEmployeeModel.emp_id;
+    cell.labelDesignation.text = tempEmployeeModel.designation;
+    return cell;
+    
+}
+
 
 @end
