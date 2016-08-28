@@ -20,6 +20,8 @@
 		E1735A881D7161C200835579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1735A861D7161C200835579 /* LaunchScreen.storyboard */; };
 		E1735AAE1D729E5300835579 /* Employee.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1735AAD1D729E5300835579 /* Employee.xml */; };
 		E1735AAF1D729E5300835579 /* Employee.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1735AAD1D729E5300835579 /* Employee.xml */; };
+		E1735AB21D729EFD00835579 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E1735AB11D729EFD00835579 /* Employee.m */; };
+		E1735AB41D729F4D00835579 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1735AB31D729F4D00835579 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		E1735A871D7161C200835579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1735A891D7161C200835579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1735AAD1D729E5300835579 /* Employee.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Employee.xml; sourceTree = "<group>"; };
+		E1735AB01D729EFD00835579 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		E1735AB11D729EFD00835579 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		E1735AB31D729F4D00835579 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 			children = (
 				E1735A631D7161A900835579 /* AppDelegate.h */,
 				E1735A641D7161A900835579 /* AppDelegate.m */,
+				E1735AB01D729EFD00835579 /* Employee.h */,
+				E1735AB11D729EFD00835579 /* Employee.m */,
 				E1735A661D7161A900835579 /* ViewController.h */,
 				E1735A671D7161A900835579 /* ViewController.m */,
 				E1735A691D7161A900835579 /* Main.storyboard */,
@@ -107,6 +114,7 @@
 		E1735A7C1D7161C200835579 /* ATXMLParsing Swift */ = {
 			isa = PBXGroup;
 			children = (
+				E1735AB31D729F4D00835579 /* Employee.swift */,
 				E1735A7D1D7161C200835579 /* AppDelegate.swift */,
 				E1735A7F1D7161C200835579 /* ViewController.swift */,
 				E1735A811D7161C200835579 /* Main.storyboard */,
@@ -222,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1735A681D7161A900835579 /* ViewController.m in Sources */,
+				E1735AB21D729EFD00835579 /* Employee.m in Sources */,
 				E1735A651D7161A900835579 /* AppDelegate.m in Sources */,
 				E1735A621D7161A900835579 /* main.m in Sources */,
 			);
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1735A801D7161C200835579 /* ViewController.swift in Sources */,
+				E1735AB41D729F4D00835579 /* Employee.swift in Sources */,
 				E1735A7E1D7161C200835579 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
